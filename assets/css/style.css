@@ -3,14 +3,65 @@ ul {
     padding: 0;
     overflow: hidden;
     list-style-type: none;
-    background-color: #797777;
+    background-color: #8c755d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    display: block;
+    padding: 14px 16px; 
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ef8615;
+  }
+
+  li b {
+    color: white;
+    display: block;
+    padding: 8px 16px; 
+    text-decoration: none;
+  }
+
+  .activo {
+    background-color: #c27a2d;
+  }
+
+  .derecha {
+    float: right;
+  }
+
+  .buscador {
+    height: 23px;
+    border: 2px solid #c27a2d;
+    border-radius: 5px;
+  }
+
+  button {
+    display: inline-block;
+    padding: 7px 10px;
+    text-align: center;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e9952f;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #c27a2d;
   }
 
   .miJumbo {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 32px 16px;
-    background-color: #e9ecef;
+    background-color: #dfc4a4;
     border-radius: 0.5rem;
     text-align: center;
   }
